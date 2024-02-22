@@ -3,7 +3,7 @@ import movieTrailer from "movie-trailer";
 import ReactPlayer from "react-player";
 import "./banner.css";
 import axios from "axios";
-import { API_key, requests } from "../../../utils/requests";
+import { API_key, requests } from "../../utils/requests";
 
 const Banner = () => {
   const [movie, setMovie] = useState({});

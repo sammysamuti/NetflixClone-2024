@@ -1,5 +1,5 @@
 import Row from "../Row/Row";
-import { API_key, requests } from "../../../../utils/requests";
+import { API_key, requests } from "../../../utils/requests";
 
 const RowList = () => {
   return (
